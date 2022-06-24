@@ -1,3 +1,3 @@
 import '../styles/style.scss'
 
-console.log('coucou');
+console.log('Hello World!');
