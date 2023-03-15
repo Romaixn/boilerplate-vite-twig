@@ -2,5 +2,6 @@
 
 {% block body %}
     <h1>{{ title }}</h1>
+    {% include "components/alert.html.twig" with {'content': 'An exemple of imported component with variable !'} %}
     <a href="/about.html">Another page</a>
 {% endblock %}
