@@ -1,12 +1,12 @@
 <div align="center">
 
   <h1>Boilerplate Vite Twig</h1>
-  
+
   <p>
     Boilerplate with Twig / Bootstrap / SCSS / jQuery
   </p>
-  
-  
+
+
 <!-- Badges -->
 <p>
   <a href="https://github.com/Romaixn/boilerplate-vite-twig/graphs/contributors">
@@ -28,7 +28,7 @@
     <img src="https://img.shields.io/github/license/Romaixn/boilerplate-vite-twig.svg" alt="license" />
   </a>
 </p>
-   
+
 <h4>
     <a href="#">View Demo</a>
   <span> · </span>
@@ -54,7 +54,7 @@
 - [Contributing](#wave-contributing)
 - [Contact](#handshake-contact)
 
-  
+
 
 <!-- About the Project -->
 ## :star2: About the Project
@@ -106,6 +106,34 @@ Start the server
   yarn dev
 ```
 
+### How to add pages ?
+#### Create the twig file
+Create a twig file in the templates folder with this minimal content:
+```twig
+{% extends "base.html.twig" %}
+
+{% block body %}
+    Your content here
+{% endblock %}
+```
+> The content of the page will go between the `block body` and the `endblock`
+
+#### Create the html file
+Add the page in .html format to the root of the project. (next to index.html and about.html) With this minimal content:
+
+```html
+<script type="application/json" data-template="templates/name-of-your-page.html.twig">
+{
+}
+</script>
+```
+
+> Replace `name-of-your-page` by the name of your template
+
+You can add any variables you want in JSON. (a list of items for use in loop, the title of the page, etc..)
+
+#### Adding output for production build
+Add your page in `vite.config.js` file in the root of the project.
 
 <!-- Deployment -->
 ### :triangular_flag_on_post: Deployment
