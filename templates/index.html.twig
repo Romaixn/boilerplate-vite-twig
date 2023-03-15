@@ -3,5 +3,9 @@
 {% block body %}
     <h1>{{ title }}</h1>
     {% include "components/alert.html.twig" with {'content': 'An exemple of imported component with variable !'} %}
-    <a href="/about.html">Another page</a>
+
+    <p>Adding image</p>
+    <img src="/assets/images/test.png" alt="Test image">
+
+    <a class="mt-4 d-block" href="/about.html">Another page</a>
 {% endblock %}
