@@ -11,7 +11,7 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.4",
-    "sass": "^1.59.3",
+    "sass": "^1.60.0",
     "vite": "^4.2.1",
     "vite-plugin-twig": "^2.1.1"
   }
