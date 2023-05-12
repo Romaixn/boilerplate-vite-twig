@@ -10,7 +10,7 @@
   "devDependencies": {
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.4",
+    "jquery": "^3.7.0",
     "sass": "^1.62.1",
     "vite": "^4.3.5",
     "vite-plugin-twig": "^2.1.1"
