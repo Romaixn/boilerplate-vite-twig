@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.5",
+    "bootstrap": "^5.3.6",
     "jquery": "^3.7.1",
     "sass": "^1.87.0",
     "vite": "^6.3.5",
