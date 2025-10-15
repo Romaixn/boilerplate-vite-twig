@@ -12,7 +12,7 @@
     "bootstrap": "^5.3.8",
     "jquery": "^3.7.1",
     "sass": "^1.93.2",
-    "vite": "^7.1.9",
+    "vite": "^7.1.10",
     "vite-plugin-twig": "^2.1.1"
   }
 }
